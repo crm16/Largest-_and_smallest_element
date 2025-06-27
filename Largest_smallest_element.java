@@ -11,8 +11,10 @@ public class Largest_smallest_element {
         for(int i =0; i<size; i++){
             numbers[i]=sc.nextInt();
         }
+        
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
+        
         for(int i = 0; i<size; i++){
             if(numbers[i]>max){
                 max = numbers[i];
@@ -21,6 +23,7 @@ public class Largest_smallest_element {
                 min = numbers[i];
             }
         }
+        
         System.out.print("\n");
         System.out.println("Largest element: " + max);
         System.out.println("Smallest element: " +min);
